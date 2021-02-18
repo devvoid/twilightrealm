@@ -2,11 +2,12 @@
     "type": "twilightrealm:twilight",
     "generator": {
         "type": "noise",
-        "seed": -1,
-        "settings": "minecraft:amplified",
+        "settings": "minecraft:overworld",
+        "seed": 0,
         "biome_source": {
-            "seed": -1,
-            "type": "minecraft:vanilla_layered"
+            "type": "minecraft:vanilla_layered",
+            "seed": 0,
+            "large_biomes": false
         }
     }
 }
