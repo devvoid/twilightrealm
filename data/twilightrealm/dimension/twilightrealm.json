@@ -1,13 +1,16 @@
 {
-    "type": "twilightrealm:twilight",
-    "generator": {
-        "type": "noise",
-        "settings": "minecraft:overworld",
-        "seed": 0,
-        "biome_source": {
-            "type": "minecraft:vanilla_layered",
-            "seed": 0,
-            "large_biomes": false
-        }
-    }
+	"type": "minecraft:overworld",
+	"generator": {
+		"type": "minecraft:noise",
+		"seed": 0,
+		"settings": "minecraft:overworld",
+		"biome_source": {
+			"seed": 0,
+			"biomes": [
+				"minecraft:taiga"
+			],
+			"type": "minecraft:fixed",
+			"biome": "twilightrealm:twilight_plains"
+		}
+	}
 }
