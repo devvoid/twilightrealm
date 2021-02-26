@@ -14,7 +14,14 @@
 		"fog_color": 2779289,
 		"water_color": 4159204,
 		"water_fog_color": 329011,
-		"grass_color_modifier": "none"
+		"grass_color_modifier": "none",
+
+		"music": {
+			"sound": "twilightrealm:music.twilight.plains",
+			"min_delay": 100,
+			"max_delay": 200,
+			"replace_current_music": true
+		}
 	},
 	
 	"surface_builder": "minecraft:grass",
@@ -91,5 +98,7 @@
 				"maxCount": 5
 			}
 		]
-	}
+	},
+	
+	"spawn_costs": {}
 }

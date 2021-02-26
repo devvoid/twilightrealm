@@ -6,11 +6,11 @@
 		"settings": "minecraft:overworld",
 		"biome_source": {
 			"seed": 0,
+			"type": "minecraft:vanilla_layered",
 			"biomes": [
-				"minecraft:taiga"
-			],
-			"type": "minecraft:fixed",
-			"biome": "twilightrealm:twilight_plains"
+				"minecraft:taiga",
+				"twilightrealm:twilight_plains"
+			]
 		}
 	}
 }
