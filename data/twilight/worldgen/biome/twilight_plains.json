@@ -1,104 +1,183 @@
 {
-	"depth": 0.125,
-	"scale": 0.03,
-	"precipitation": "rain",
-	"category": "plains",
-	"temperature": 0.6,
-	"temperature_modifier": "none",
-	"downfall": 0.5,
-	"player_spawn_friendly": true,
-	"creature_spawn_possibility": 0.5,
-
-	"effects": {
-		"sky_color": 7907327,
-		"fog_color": 2779289,
-		"water_color": 4159204,
-		"water_fog_color": 329011,
-		"grass_color_modifier": "none",
-
-		"music": {
-			"sound": "twilight:music.twilight.plains",
-			"min_delay": 100,
-			"max_delay": 200,
-			"replace_current_music": true
-		}
-	},
-	
-	"surface_builder": "minecraft:grass",
-
-	"carvers": {
-		"air": [
-			"minecraft:cave"
-		]
-	},
-
-	"features": [
-		[],
-		[
-		  "minecraft:lake_water",
-		  "minecraft:lake_lava"
-		],
-		[],
-		[
-		  "minecraft:amethyst_geode",
-		  "minecraft:monster_room"
-		],
-		[],
-		[],
-		[
-		  "minecraft:ore_dirt",
-		  "minecraft:ore_gravel",
-		  "minecraft:ore_granite",
-		  "minecraft:ore_diorite",
-		  "minecraft:ore_andesite",
-		  "minecraft:ore_coal_upper",
-		  "minecraft:ore_coal_lower",
-		  "minecraft:ore_iron_lower",
-		  "minecraft:ore_iron_upper",
-		  "minecraft:ore_gold",
-		  "minecraft:ore_redstone",
-		  "minecraft:ore_diamond",
-		  "minecraft:ore_lapis",
-		  "minecraft:ore_lapis_buried",
-		  "minecraft:ore_copper",
-		  "minecraft:underwater_magma",
-		  "minecraft:disk_sand",
-		  "minecraft:disk_clay",
-		  "minecraft:disk_gravel"
-		],
-		[],
-		[
-		  "minecraft:patch_tall_grass_2",
-		  "minecraft:glow_lichen",
-		  "minecraft:plain_vegetation",
-		  "minecraft:flower_plain_decorated",
-		  "minecraft:patch_grass_plain",
-		  "minecraft:brown_mushroom_normal",
-		  "minecraft:red_mushroom_normal",
-		  "minecraft:patch_sugar_cane",
-		  "minecraft:patch_pumpkin",
-		  "minecraft:spring_water",
-		  "minecraft:spring_lava"
-		],
-		[
-		  "minecraft:freeze_top_layer"
-		]
-	],
-
-	"starts": [
-		"minecraft:pillager_outpost"
-	],
-	
-	"spawners": {
-		"creature": [
-			{
-				"type": "minecraft:cow",
-				"weight": 1,
-				"minCount": 1,
-				"maxCount": 5
-			}
-		]
-	},
-	
-	"spawn_costs": {}
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "sky_color": 4861587,
+    "fog_color": 7036283,
+    "water_color": 5000375,
+    "water_fog_color": 329011
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:canyon"
+    ]
+  },
+  "starts": [
+    "minecraft:village_plains",
+    "minecraft:pillager_outpost",
+    "minecraft:mineshaft",
+    "minecraft:stronghold",
+    "minecraft:ruined_portal",
+    "twilight:test_tower"
+  ],
+  "features": [
+    [],
+    [
+      "minecraft:lake_water",
+      "minecraft:lake_lava"
+    ],
+    [],
+    [
+      "minecraft:monster_room"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
+      "minecraft:ore_coal",
+      "minecraft:ore_iron",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_lapis",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [],
+    [
+      "minecraft:patch_tall_grass_2",
+      "minecraft:plain_vegetation",
+      "minecraft:flower_plain_decorated",
+      "minecraft:patch_grass_plain",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 12,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:horse",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:donkey",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "category": "plains",
+  "precipitation": "rain",
+  "surface_builder": "minecraft:grass",
+  "scale": 0.05,
+  "downfall": 0.4,
+  "depth": 0.12,
+  "temperature": 0.8,
+  "player_spawn_friendly": true,
+  "spawn_costs": {}
 }

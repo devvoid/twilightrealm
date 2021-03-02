@@ -1,0 +1,35 @@
+{
+	"name": "layer",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"location": "twilight:test/magenta_layer",
+				"processors": "minecraft:empty",
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element"
+			}
+		},
+
+		{
+			"weight": 1,
+			"element": {
+				"location": "twilight:test/light_blue_layer",
+				"processors": "minecraft:empty",
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element"
+			}
+		},
+
+		{
+			"weight": 1,
+			"element": {
+				"location": "twilight:test/gray_layer",
+				"processors": "minecraft:empty",
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element"
+			}
+		}
+	]
+}
