@@ -1,9 +1,9 @@
 {
-	"type": "minecraft:overworld",
+	"type": "twilight:twilight",
 	"generator": {
 		"type": "minecraft:noise",
 		"seed": 0,
-		"settings": "minecraft:overworld",
+		"settings": "twilight:twilight",
 
 		"biome_source": {
 			"seed": 0,
