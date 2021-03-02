@@ -17,7 +17,7 @@
 		"grass_color_modifier": "none",
 
 		"music": {
-			"sound": "twilightrealm:music.twilight.plains",
+			"sound": "twilight:music.twilight.plains",
 			"min_delay": 100,
 			"max_delay": 200,
 			"replace_current_music": true

@@ -8,8 +8,7 @@
 			"seed": 0,
 			"type": "minecraft:vanilla_layered",
 			"biomes": [
-				"minecraft:taiga",
-				"twilightrealm:twilight_plains"
+				"twilight:twilight_plains"
 			]
 		}
 	}
