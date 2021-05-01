@@ -27,6 +27,18 @@
 				"spacing": 32,
 				"separation": 8,
 				"salt": 30084232
+			},
+
+			"minecraft:endcity": {
+				"spacing": 20,
+				"separation": 15,
+				"salt": 69343940
+			},
+
+			"minecraft:pillager_outpost": {
+				"spacing": 10,
+				"separation": 5,
+				"salt": 14
 			}
 		}
 	},

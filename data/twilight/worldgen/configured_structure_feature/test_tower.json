@@ -1,5 +1,5 @@
 { 
-	"type": "minecraft:bastion_remnant",
+	"type": "minecraft:pillager_outpost",
 	"config": {
 		"start_pool": "twilight:test/layer",
 		"size": 7

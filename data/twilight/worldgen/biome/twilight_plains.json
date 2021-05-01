@@ -19,11 +19,11 @@
   },
   "starts": [
     "minecraft:village_plains",
-    "minecraft:pillager_outpost",
     "minecraft:mineshaft",
     "minecraft:stronghold",
     "minecraft:ruined_portal",
-    "twilight:test_tower"
+    "twilight:test_tower",
+    "minecraft:end_city"
   ],
   "features": [
     [],
