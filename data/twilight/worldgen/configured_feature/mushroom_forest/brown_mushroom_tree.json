@@ -1,0 +1,37 @@
+{
+	"type": "minecraft:huge_fungus",
+	"config": {
+		"hat_state": {
+			"Properties": {
+				"west": "true",
+				"up": "true",
+				"south": "true",
+				"north": "true",
+				"east": "true",
+				"down": "false"
+			},
+			"Name": "minecraft:brown_mushroom_block"
+		},
+		"decor_state": {
+			"Name": "minecraft:shroomlight"
+		},
+		"stem_state": {
+			"Properties": {
+				"west": "true",
+				"up": "false",
+				"south": "true",
+				"north": "true",
+				"east": "true",
+				"down": "false"
+			},
+			"Name": "minecraft:mushroom_stem"
+		},
+		"valid_base_block": {
+			"Properties": {
+				"snowy": "false"
+			},
+			"Name": "minecraft:grass_block"
+		},
+		"planted": false
+	}
+}

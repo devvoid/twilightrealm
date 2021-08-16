@@ -1,0 +1,75 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "features": [
+          {
+            "feature": "minecraft:brown_mushroom_swamp",
+            "chance": 0.2
+          },
+          {
+            "feature": "minecraft:red_mushroom_swamp",
+            "chance": 0.25
+          },
+          {
+            "feature": "twilight:mushroom_forest/huge_red_mushroom",
+            "chance": 0.005
+          },
+          {
+            "feature": "twilight:mushroom_forest/huge_brown_mushroom",
+            "chance": 0.045
+          },
+          {
+            "feature": "twilight:mushroom_forest/big_red_mushroom",
+            "chance": 0.5
+          },
+          {
+            "feature": "twilight:mushroom_forest/big_brown_mushroom",
+            "chance": 0.45
+          },
+          {
+            "feature": "twilight:mushroom_forest/red_mushroom_tree",
+            "chance": 0.15
+          },
+          {
+            "feature": "twilight:mushroom_forest/brown_mushroom_tree",
+            "chance": 0.1
+          },
+          {
+            "feature": "twilight:mushroom_forest/nether_mushroom_tree",
+            "chance": 0.05
+          }
+        ],
+        "default": "twilight:mushroom_forest/big_red_mushroom"
+      },
+      "type": "minecraft:random_selector"
+    },
+    "decorator": {
+      "config": {
+        "outer": {
+          "config": {},
+          "type": "minecraft:dark_oak_tree"
+        },
+        "inner": {
+          "config": {
+            "outer": {
+              "config": {
+                "max_water_depth": 0
+              },
+              "type": "minecraft:water_depth_threshold"
+            },
+            "inner": {
+              "config": {
+                "heightmap": "OCEAN_FLOOR"
+              },
+              "type": "minecraft:heightmap"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    }
+  },
+  "type": "minecraft:decorated"
+}

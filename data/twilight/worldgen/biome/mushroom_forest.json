@@ -62,10 +62,8 @@
 			"minecraft:rare_small_dripstone"
 		],
 		[
-			"minecraft:mushroom_field_vegetation",
+			"twilight:mushroom_forest_vegetation",
 			"minecraft:glow_lichen",
-			"minecraft:flower_plain_decorated",
-			"minecraft:patch_grass_plain",
 			"minecraft:brown_mushroom_normal",
 			"minecraft:red_mushroom_normal",
 			"minecraft:patch_sugar_cane",
