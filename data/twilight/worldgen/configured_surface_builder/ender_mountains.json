@@ -1,5 +1,5 @@
 {
-	"type": "minecraft:mountain",
+	"type": "minecraft:default",
 	"config": {
 		"top_material": {
 			"Name": "minecraft:end_stone"
