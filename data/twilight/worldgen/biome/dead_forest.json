@@ -41,11 +41,14 @@
 		"minecraft:ore_gold",
 		"minecraft:ore_redstone",
 		"minecraft:ore_diamond",
-		"minecraft:ore_lapis"
+		"minecraft:ore_lapis",
+		"twilight:dead_forest/disk_soul_sand"
 	  ],
 	  [
 	  ],
 	  [
+		"twilight:dead_forest_vegetation",
+		"minecraft:patch_dead_bush",
 		"minecraft:glow_lichen",
 		"minecraft:spring_lava"
 	  ],
@@ -82,6 +85,12 @@
 		  "weight": 100,
 		  "minCount": 4,
 		  "maxCount": 8
+		},
+		{
+			"type": "minecraft:wither_skeleton",
+			"weight": 5,
+			"minCount": 1,
+			"maxCount": 8
 		},
 		{
 		  "type": "minecraft:enderman",
