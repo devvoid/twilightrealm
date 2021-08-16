@@ -18,12 +18,24 @@
     ]
   },
   "starts": [
-    "minecraft:village_plains",
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal",
-    "twilight:test_tower",
-    "minecraft:end_city"
+    "minecraft:village_snowy",
+
+		"minecraft:igloo",
+		"minecraft:jungle_pyramid",
+		"minecraft:pillager_outpost",
+		"minecraft:stronghold",
+		"minecraft:end_city",
+		"minecraft:buried_treasure",
+		"minecraft:mineshaft",
+
+		"minecraft:ruined_portal",
+
+		"minecraft:shipwreck",
+		"minecraft:ocean_ruin_cold",
+		"minecraft:ocean_ruin_warm",
+		"minecraft:bastion_remnant",
+		"minecraft:fortress",
+		"minecraft:nether_fossil"
   ],
   "features": [
     [],

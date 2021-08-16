@@ -1,0 +1,7 @@
+{
+	"type": "village",
+	"config": {
+		"start_pool": "twilight:zombie_village/plains",
+		"size": 7
+	}
+}

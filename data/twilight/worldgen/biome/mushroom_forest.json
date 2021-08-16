@@ -20,12 +20,13 @@
 		]
 	},
 	"starts": [
-		"minecraft:village_plains",
+		"minecraft:village_taiga",
 		"minecraft:mineshaft",
 		"minecraft:stronghold",
 		"minecraft:ruined_portal",
-		"twilight:test_tower",
-		"minecraft:end_city"
+		"minecraft:end_city",
+		"minecraft:mansion",
+		"minecraft:ruined_portal_ocean"
 	],
 	"features": [
 		[],
