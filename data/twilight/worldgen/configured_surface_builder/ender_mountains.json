@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:mountain",
+	"config": {
+		"top_material": {
+			"Name": "minecraft:end_stone"
+		},
+
+		"under_material": {
+			"Name": "minecraft:end_stone"
+		},
+
+		"underwater_material": {
+			"Name": "minecraft:end_stone"
+		}
+	}
+}
