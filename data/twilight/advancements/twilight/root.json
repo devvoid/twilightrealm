@@ -3,9 +3,14 @@
 		"icon": {
 			"item": "minecraft:clock"
 		},
-		"title": "The Twilight",
-		"description": "An ever-shifting realm of chaos and disorder",
-		"show_toast": false,
+		"title": {
+			"translate": "advancements.twilight.root.title"
+		},
+		"description": {
+			"translate": "advancements.twilight.root.description"
+		},
+		"background": "minecraft:textures/block/deepslate.png",
+		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": false
 	},
