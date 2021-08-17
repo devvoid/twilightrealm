@@ -2,56 +2,56 @@
 	"type": "minecraft:block",
 	"pools": [
 		{
-			"rolls": 1,
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
 			"entries": [
 				{
 					"type": "minecraft:alternatives",
 					"children": [
 						{
 							"type": "minecraft:item",
-							"name": "minecraft:stone",
+							"name": "minecraft:smooth_stone",
 							"conditions": [
 								{
-									"condition": "alternative",
-									"terms": [
-										{
-											"condition": "minecraft:entity_properties",
-											"entity": "this",
-											"predicate": {
-												"equipment": {
-													"mainhand": {
-														"nbt": "{Ignis:1b}"
-													}
-												}
-											}
-										},
-		
-										{
-											"condition": "minecraft:match_tool",
-											"predicate": {
-												"enchantments": [
-													{
-														"enchantment": "minecraft:silk_touch",
-														"levels": {
-															"min": 1
-														}
-													}
-												]
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate": {
+										"equipment": {
+											"mainhand": {
+												"nbt": "{Ignis:1b}"
 											}
 										}
-									]
+									}
 								}
 							]
 						},
-
 						{
 							"type": "minecraft:item",
-							"name": "minecraft:cobblestone",
 							"conditions": [
 								{
-									"condition": "minecraft:survives_explosion"
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"enchantments": [
+											{
+												"enchantment": "minecraft:silk_touch",
+												"levels": {
+													"min": 1
+												}
+											}
+										]
+									}
 								}
-							]
+							],
+							"name": "minecraft:stone"
+						},
+						{
+							"type": "minecraft:item",
+							"functions": [
+								{
+									"function": "minecraft:explosion_decay"
+								}
+							],
+							"name": "minecraft:cobblestone"
 						}
 					]
 				}

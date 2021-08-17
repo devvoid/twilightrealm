@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:clock"
+		},
+		"title": "The Twilight",
+		"description": "An ever-shifting realm of chaos and disorder",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+
+	"criteria": {
+		"enter_dimension": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"dimension": "twilight:twilightrealm"
+				}
+			}
+		}
+	}
+}
