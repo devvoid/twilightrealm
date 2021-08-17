@@ -1,0 +1,7 @@
+{ 
+	"type": "minecraft:pillager_outpost",
+	"config": {
+		"start_pool": "twilight:obsidian_tower/small",
+		"size": 7
+	}
+}

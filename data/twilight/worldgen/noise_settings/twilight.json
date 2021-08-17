@@ -56,9 +56,9 @@
 			},
 
 			"minecraft:pillager_outpost": {
-				"spacing": 10,
-				"separation": 5,
-				"salt": 14
+				"spacing": 32,
+				"separation": 8,
+				"salt": 1415677
 			},
 
 			"minecraft:stronghold": {
@@ -159,7 +159,7 @@
 		"size_horizontal": 1,
 
 		"min_y": 0,
-		"height": 256,
+		"height": 512,
 
 		"density_factor": 1,
 		"density_offset": -0.4,

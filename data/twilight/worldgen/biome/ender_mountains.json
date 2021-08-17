@@ -64,7 +64,9 @@
 		"minecraft:shipwreck",
 		"minecraft:ocean_ruin_warm",
 		"minecraft:bastion_remnant",
-		"minecraft:fortress"
+		"minecraft:fortress",
+
+		"twilight:obsidian_tower"
 	],
 	"spawners": {
 		"monster": [
@@ -79,12 +81,6 @@
 				"weight": 5,
 				"minCount": 2,
 				"maxCount": 6
-			},
-			{
-				"type": "minecraft:creeper",
-				"weight": 100,
-				"minCount": 4,
-				"maxCount": 4
 			},
 			{
 				"type": "minecraft:slime",
