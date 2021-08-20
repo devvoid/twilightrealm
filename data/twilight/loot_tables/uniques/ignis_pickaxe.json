@@ -27,7 +27,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Ignis:1b,Enchantments:[{}]}"
+							"tag": "{Ignis:1b,Enchantments:[{}],RepairCost:999999}"
 						}
 					]
 				}
