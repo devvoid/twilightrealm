@@ -68,7 +68,8 @@
 			"minecraft:warm_ocean_vegetation",
 			"minecraft:seagrass_warm",
 			"minecraft:sea_pickle",
-			"minecraft:kelp_warm"
+			"minecraft:kelp_warm",
+			"twilight:twilight_ocean/underwater_magma"
 		],
 		[
 			"minecraft:freeze_top_layer"
@@ -80,7 +81,8 @@
 		"minecraft:mineshaft",
 		"minecraft:shipwreck",
 		"minecraft:buried_treasure",
-		"minecraft:ruined_portal_ocean"
+		"minecraft:ruined_portal_ocean",
+		"minecraft:nether_fossil"
 	],
 	"spawners": {
 		"monster": [
@@ -212,5 +214,5 @@
 	"temperature_modifier": "frozen",
 	"downfall": 0.5,
 	"category": "ocean",
-	"depth": -5
+	"depth": -2
 }
