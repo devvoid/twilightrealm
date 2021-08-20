@@ -27,7 +27,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Ignis:1b}"
+							"tag": "{Ignis:1b,Enchantments:[{}]}"
 						}
 					]
 				}

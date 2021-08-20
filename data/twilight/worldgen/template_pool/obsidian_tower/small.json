@@ -6,7 +6,7 @@
 			"weight": 2,
 			"element": {
 				"location": "twilight:obsidian_tower/small_segment_short",
-				"processors": "minecraft:empty",
+				"processors": "twilight:obsidian_tower",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
 			}
@@ -16,17 +16,17 @@
 			"weight": 3,
 			"element": {
 				"location": "twilight:obsidian_tower/small_segment_tall",
-				"processors": "minecraft:empty",
+				"processors": "twilight:obsidian_tower",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
 			}
 		},
 
 		{
-			"weight": 2,
+			"weight": 1,
 			"element": {
 				"location": "twilight:obsidian_tower/small_cap_01",
-				"processors": "minecraft:empty",
+				"processors": "twilight:obsidian_tower",
 				"projection": "rigid",
 				"element_type": "minecraft:legacy_single_pool_element"
 			}
