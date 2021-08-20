@@ -1,42 +1,31 @@
 {
 	"type": "minecraft:block",
 	"pools": [
-		{
-			"rolls": 1,
-			"entries": [
+	  {
+		"rolls": 1.0,
+		"bonus_rolls": 0.0,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:sand",
+			"functions": [
 				{
-					"type": "minecraft:alternatives",
-					"children": [
+					"function": "minecraft:furnace_smelt",
+					"conditions": [
 						{
-							"type": "minecraft:item",
-							"name": "minecraft:glass",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"equipment": {
-											"mainhand": {
-												"nbt": "{Ignis:1b}"
-											}
-										}
-									}
-								}
-							]
-						},
-
-						{
-							"type": "minecraft:item",
-							"name": "minecraft:sand",
-							"conditions": [
-								{
-									"condition": "minecraft:survives_explosion"
-								}
-							]
+							"condition": "minecraft:reference",
+							"name": "twilight:has_ignis"
 						}
 					]
 				}
 			]
-		}
+		  }
+		],
+		"conditions": [
+		  {
+			"condition": "minecraft:survives_explosion"
+		  }
+		]
+	  }
 	]
-}
+  }

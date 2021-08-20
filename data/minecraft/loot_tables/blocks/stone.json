@@ -10,23 +10,6 @@
 					"children": [
 						{
 							"type": "minecraft:item",
-							"name": "minecraft:smooth_stone",
-							"conditions": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"equipment": {
-											"mainhand": {
-												"nbt": "{Ignis:1b}"
-											}
-										}
-									}
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
 							"conditions": [
 								{
 									"condition": "minecraft:match_tool",
@@ -48,7 +31,22 @@
 							"type": "minecraft:item",
 							"functions": [
 								{
-									"function": "minecraft:explosion_decay"
+									"function": "minecraft:furnace_smelt",
+									"conditions": [
+										{
+											"condition": "minecraft:reference",
+											"name": "twilight:has_ignis"
+										}
+									]
+								},
+								{
+									"function": "minecraft:furnace_smelt",
+									"conditions": [
+										{
+											"condition": "minecraft:reference",
+											"name": "twilight:has_ignis"
+										}
+									]
 								}
 							],
 							"name": "minecraft:cobblestone"
