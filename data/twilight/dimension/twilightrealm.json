@@ -98,6 +98,17 @@
 				},
 
 				{
+					"biome": "twilight:twilight_ocean",
+					"parameters": {
+						"altitude": -1.5,
+						"weirdness": 0.0,
+						"offset": 0,
+						"temperature": -0.5,
+						"humidity": 0
+					}
+				},
+
+				{
 					"biome": "minecraft:dripstone_caves",
 					"parameters": {
 						"altitude": -2.0,
