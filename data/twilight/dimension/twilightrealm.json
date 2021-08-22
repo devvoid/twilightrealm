@@ -87,6 +87,17 @@
 				},
 
 				{
+					"biome": "twilight:radiant_mountains",
+					"parameters": {
+						"altitude": 1.1,
+						"weirdness": 0.0,
+						"offset": 0.0,
+						"temperature": -1.0,
+						"humidity": 0.0
+					}
+				},
+
+				{
 					"biome": "minecraft:nether_wastes",
 					"parameters": {
 						"altitude": 0.0,

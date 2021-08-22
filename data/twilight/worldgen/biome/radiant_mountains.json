@@ -1,5 +1,5 @@
 {
-	"scale": 0.5,
+	"scale": 2.0,
 	"effects": {
 		"mood_sound": {
 			"sound": "minecraft:ambient.cave",
@@ -7,16 +7,15 @@
 			"block_search_extent": 8,
 			"offset": 2.0
 		},
-		"sky_color": 0,
+		"sky_color": 1267777,
 	  	"fog_color": 0,
-		"water_color": 4159204,
-		"water_fog_color": 329011
+		"water_color": 6045804,
+		"water_fog_color": 3939662
 	},
-	"surface_builder": "twilight:ender_mountains",
+	"surface_builder": "twilight:radiant_mountains",
 	"carvers": {
 		"air": [
-			"minecraft:cave",
-			"minecraft:canyon"
+			"twilight:big_cave"
 		]
 	},
 	"features": [
@@ -29,22 +28,24 @@
 			"minecraft:monster_room"
 		],
 		[],
-		[
-			"minecraft:spare_chorus"
-		],
+		[],
 		[
 			"minecraft:ore_tuff",
 			"minecraft:ore_deepslate",
-			"minecraft:ore_coal",
-			"minecraft:ore_iron",
-			"minecraft:ore_gold",
-			"minecraft:ore_redstone",
-			"minecraft:ore_diamond",
-			"minecraft:ore_copper"
+			"twilight:ore/high_coal",
+			"twilight:ore/high_iron",
+			"twilight:ore/high_gold",
+			"twilight:ore/high_redstone",
+			"twilight:ore/high_diamond",
+			"twilight:ore/high_emerald",
+			"twilight:ore/high_copper",
+			"twilight:ore/high_infested",
+			"twilight:ore/high_amethyst",
+			"twilight:ore/ancient_debris"
 		],
 		[],
 		[
-			"minecraft:end_spike"
+			"twilight:radiant_mountains/ice_spikes"
 		],
 		[
 			"minecraft:freeze_top_layer"
@@ -73,26 +74,20 @@
 	"spawners": {
 		"monster": [
 			{
-				"type": "minecraft:cave_spider",
-				"weight": 5,
-				"minCount": 4,
-				"maxCount": 4
-			},
-			{
 				"type": "minecraft:stray",
-				"weight": 5,
+				"weight": 100,
 				"minCount": 2,
 				"maxCount": 6
 			},
 			{
 				"type": "minecraft:slime",
-				"weight": 100,
+				"weight": 10,
 				"minCount": 4,
 				"maxCount": 4
 			},
 			{
 				"type": "minecraft:enderman",
-				"weight": 100,
+				"weight": 20,
 				"minCount": 1,
 				"maxCount": 4
 			},
@@ -100,7 +95,7 @@
 				"type": "minecraft:witch",
 				"weight": 15,
 				"minCount": 1,
-				"maxCount": 1
+				"maxCount": 4
 			}
 		],
 		"creature": [
@@ -131,12 +126,6 @@
 				"weight": 10,
 				"minCount": 4,
 				"maxCount": 6
-			},
-			{
-				"type": "minecraft:axolotl",
-				"weight": 10,
-				"minCount": 4,
-				"maxCount": 6
 			}
 		],
 		"water_creature": [],
@@ -144,10 +133,10 @@
 		"misc": []
 	},
 	"spawn_costs": {},
-	"player_spawn_friendly": false,
-	"precipitation": "none",
+	"player_spawn_friendly": true,
+	"precipitation": "snow",
 	"temperature": 0.2,
 	"downfall": 0.3,
 	"category": "extreme_hills",
-	"depth": 1.0
+	"depth": 1.5
 }
