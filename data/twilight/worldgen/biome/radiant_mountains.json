@@ -9,6 +9,8 @@
 		},
 		"sky_color": 1267777,
 	  	"fog_color": 0,
+		"foliage_color": 10135973,
+		"grass_color": 12371908,
 		"water_color": 6045804,
 		"water_fog_color": 3939662
 	},
