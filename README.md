@@ -10,3 +10,4 @@
 # Notes
 - In noise settings, bedrock\_roof\_position is an offset from the TOP, while bedrock\_floor\_position is an offset from the BOTTOM. To get rid of one or the other, just set it to an obscene out-of-bounds number; that's what vanilla seems to do.
 - Chorus plants aren't affected by Ignis because only the block you directly break would be affected, the ones that break due to gravity are not.
+- In dimension\_type, "natural" is set to "true" because of a glitch that causes a fatal error to console/no sleep to happen when trying to sleep in an unnatural biome. Bug tracker report: [here](https://bugs.mojang.com/browse/MC-235035)
