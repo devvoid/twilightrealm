@@ -3,7 +3,7 @@
 - [ ] Turn water purple, maybe?
 
 ## Biomes
-- [ ] Sky mountains; dark green sky, greyish-white foliage (to represent snow). Extremely tall. Covered in ice spikes. Strays completely replace regular skeletons.
+- [X] Radiant Mountains; dark green sky, greyish-white foliage (to represent snow). Extremely tall. Covered in ice spikes. Strays completely replace regular skeletons.
 - [X] Twilight Oceans: SUPER deep. The bottoms are warm (sand bottom, seagrass, kelp, tropical fish, Axolotls, maybe even coral), but the surface is frozen over with icebergs. Dot the bottom with magma blocks, so it's like the underwater part is heated by geothermal vents.
 - [X] Ender Mountains: Add obsidian pillars. See if a structure processor can replace random blocks with crying obsidian.
 - [ ] Drought Forest: A taiga forest with trees that reach to the sky, but going through a drought. Ground is replaced with sand, foliage colors are dry and dead, dead bushes are the only small shrubbery.
