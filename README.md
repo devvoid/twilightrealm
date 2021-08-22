@@ -8,7 +8,11 @@
 - [X] Ender Mountains: Add obsidian pillars. See if a structure processor can replace random blocks with crying obsidian.
 - [ ] Drought Forest: A taiga forest with trees that reach to the sky, but going through a drought. Ground is replaced with sand, foliage colors are dry and dead, dead bushes are the only small shrubbery.
 - [ ] Frozen Desert: A desert going through a blizzard. Main mobs are husks and strays. Mostly desert structures, with a few smaller snow biome ones (like Igloos). The place has been frozen for a while, but not enough for full-on taiga villages to be established.
+- [ ] Hellfire Meadow: A meadow corrupted with Nether energy, transformed into a horrific twisted nether-like hellscape.
+
+## Uniques
 - [ ] Ignis Pickaxe: Make logs/stripped logs/wood/stripped wood turn into charcoal. Don't have the energy for it right now.
+- [ ] Twilight Research Notes: A guidebook to explain how the Twilight operates, written from the perspective of a researcher.
 
 ## Structures
 - [ ] Winding roads: Long branching roads that lead to nowhere. Occasionally bordered by small ruins that suggest there used to be some kind of settlement there, long ago. Found in all biomes (regional variants maybe?)
