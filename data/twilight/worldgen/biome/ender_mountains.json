@@ -20,7 +20,9 @@
 		]
 	},
 	"features": [
-		[],
+		[
+			"twilight:ender_mountains/islands"
+		],
 		[],
 		[
 			"minecraft:amethyst_geode"
@@ -30,7 +32,7 @@
 		],
 		[],
 		[
-			"minecraft:spare_chorus"
+			"twilight:ender_mountains/sparse_chorus"
 		],
 		[
 			"minecraft:ore_tuff",

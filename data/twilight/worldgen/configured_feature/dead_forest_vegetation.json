@@ -20,7 +20,7 @@
 					}
 				  ],
 
-				  "default": "minecraft:empty"
+				  "default": "twilight:nothing"
 			  }
 		  },
 		  "decorator": {
