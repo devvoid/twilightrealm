@@ -8,7 +8,11 @@
 				  "features": [
 					{
 						"feature": "twilight:hellfire_meadow/warped_fungus",
-						"chance": 0.025
+						"chance": 0.08
+					},
+					{
+						"feature": "twilight:dead_forest/patch_wither_rose",
+						"chance": 0.1
 					},
 					{
 						"feature": "twilight:hellfire_meadow/mushrooms",
