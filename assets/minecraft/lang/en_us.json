@@ -3,5 +3,13 @@
 	"item.twilight.ignis_pickaxe.lore1": "Infused with the power of fire.",
 	"item.twilight.ignis_pickaxe.lore2": "Smelts ores that you mine!",
 	"advancements.twilight.root.title": "The Twilight",
-	"advancements.twilight.root.description": "An ever-shifting realm of chaos and disorder"
+	"advancements.twilight.root.description": "An ever-shifting realm of chaos and disorder",
+	"biome.twilight.dead_forest": "Dead Forest",
+	"biome.twilight.ender_mountains": "Ender Mountains",
+	"biome.twilight.hellfire_meadow": "Hellfire Meadow",
+	"biome.twilight.mushroom_forest": "Mushroom Forest",
+	"biome.twilight.radiant_mountains": "Radiant Mountains",
+	"biome.twilight.twilight_ocean": "Twilight Ocean",
+	"biome.twilight.twilight_plains": "Twilight Plains",
+	"biome.twilight.twilight_shores": "Twilight Shores"
 }
