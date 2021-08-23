@@ -13,8 +13,8 @@
   },
   "carvers": {
     "air": [
-      "minecraft:cave",
-      "minecraft:canyon"
+      "twilight:big_cave",
+      "twilight:twisty_canyon"
     ]
   },
   "starts": [

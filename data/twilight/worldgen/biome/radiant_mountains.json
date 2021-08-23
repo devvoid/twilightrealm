@@ -17,7 +17,8 @@
 	"surface_builder": "twilight:radiant_mountains",
 	"carvers": {
 		"air": [
-			"twilight:big_cave"
+			"twilight:big_cave",
+			"twilight:twisty_canyon"
 		]
 	},
 	"features": [

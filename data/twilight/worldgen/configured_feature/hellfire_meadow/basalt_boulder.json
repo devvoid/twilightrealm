@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:random_boolean_selector",
+	"config": {
+		"feature_false": {
+			"type": "minecraft:forest_rock",
+			"config": {
+				"state": {
+					"Name": "minecraft:basalt",
+					"Properties": {
+						"axis": "x"
+					}
+				}
+			}
+		},
+
+		"feature_true": {
+			"type": "minecraft:forest_rock",
+			"config": {
+				"state": {
+					"Name": "minecraft:basalt",
+					"Properties": {
+						"axis": "z"
+					}
+				}
+			}
+		}
+	}
+}
