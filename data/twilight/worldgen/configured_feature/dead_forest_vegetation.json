@@ -8,7 +8,7 @@
 				  "features": [
 					{
 						"feature": "twilight:dead_forest/big_dead_tree",
-						"chance": 0.7
+						"chance": 0.4
 					},
 					{
 						"feature": "twilight:dead_forest/patch_soul_sand",
@@ -20,7 +20,7 @@
 					}
 				  ],
 
-				  "default": "twilight:dead_forest/big_dead_tree"
+				  "default": "minecraft:empty"
 			  }
 		  },
 		  "decorator": {
