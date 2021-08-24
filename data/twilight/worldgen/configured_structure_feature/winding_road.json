@@ -1,0 +1,7 @@
+{
+	"type": "minecraft:village",
+	"config": {
+		"size": 7,
+		"start_pool": "twilight:winding_road/start"
+	}
+}

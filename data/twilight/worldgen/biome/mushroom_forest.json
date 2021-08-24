@@ -32,7 +32,8 @@
 		"minecraft:ruined_portal",
 		"minecraft:end_city",
 		"minecraft:mansion",
-		"minecraft:ruined_portal_ocean"
+		"minecraft:ruined_portal_ocean",
+		"twilight:winding_road"
 	],
 	"features": [
 		[],

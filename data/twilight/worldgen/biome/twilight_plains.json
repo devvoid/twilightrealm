@@ -35,7 +35,9 @@
 		"minecraft:ocean_ruin_warm",
 		"minecraft:bastion_remnant",
 		"minecraft:fortress",
-		"minecraft:nether_fossil"
+		"minecraft:nether_fossil",
+
+    "twilight:winding_road"
   ],
   "features": [
     [],

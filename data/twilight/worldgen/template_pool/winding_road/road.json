@@ -1,0 +1,51 @@
+{
+	"name": "twilight:winding_road/start",
+	"elements": [
+		{
+			"element": {
+				"location": "twilight:winding_road/road/straight_01",
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "minecraft:empty"
+			},
+			"weight": 100
+		},
+		{
+			"element": {
+				"location": "twilight:winding_road/road/straight_02",
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "minecraft:empty"
+			},
+			"weight": 100
+		},
+		{
+			"element": {
+				"location": "twilight:winding_road/road/junction_01",
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "minecraft:empty"
+			},
+			"weight": 100
+		},
+		{
+			"element": {
+				"location": "twilight:winding_road/road/junction_02",
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "minecraft:empty"
+			},
+			"weight": 100
+		},
+		{
+			"element": {
+				"location": "twilight:winding_road/road/end_01",
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "minecraft:empty"
+			},
+			"weight": 100
+		}
+	],
+	"fallback": "minecraft:empty"
+}
