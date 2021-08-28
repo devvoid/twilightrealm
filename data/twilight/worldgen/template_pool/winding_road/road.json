@@ -44,7 +44,7 @@
 				"projection": "terrain_matching",
 				"processors": "minecraft:empty"
 			},
-			"weight": 100
+			"weight": 10
 		}
 	],
 	"fallback": "minecraft:empty"

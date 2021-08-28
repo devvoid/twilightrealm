@@ -24,5 +24,11 @@
 				}
 			}
 		}
+	},
+
+	"rewards": {
+		"loot": [
+			"twilight:books/research_notes"
+		]
 	}
 }

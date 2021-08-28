@@ -1,7 +1,21 @@
 {
+	"item.twilight.research_notes.name": "Twilight Research Notes",
+	"item.twilight.research_notes.lore": "Contains important information on the Twilight Realm",
+	"item.twilight.research_notes.page_1": "This book will expand over time as more information about the Twilight is learned.",
+	"item.twilight.research_notes.page_2": "The Twilight is a realm of pure chaos, a place where things are always shifting, always changing.\n\nThis world is §lextremely§r dangerous. It is heavily recommended that you come in Diamond equipment (or better), and bring friends along.",
+	"item.twilight.research_notes.page_3": "Every so often, the entire dimension resets itself, destroying all contents, and becoming even stranger. Building structures is not recommended for this reason.",
+	"item.twilight.research_notes.page_4": "In the Twilight, the sun never rises, and the moon never sets. Monsters are abound constantly, and nowhere is ever truly 'safe'.",
+	"item.twilight.research_notes.page_5": "However, since the Twilight seems to include chunks of other worlds, it is abundant in resources both rare and completely nonexistent in the Overworld.",
+	"item.twilight.research_notes.page_6": "The Twilight resists any attempts to teleport in or out; the one portal we have is the only one we've ever been able to create, and it's very unstable.",
+	"item.twilight.research_notes.page_7": "Watch your back, and please be careful if you attempt to brave its dangers.",
+	"item.twilight.research_notes.page_8": "",
+	"item.twilight.research_notes.page_9": "",
+	"item.twilight.research_notes.page_10": "",
+
 	"item.twilight.ignis_pickaxe.name": "Ignis Pickaxe",
-	"item.twilight.ignis_pickaxe.lore1": "Infused with the power of fire.",
-	"item.twilight.ignis_pickaxe.lore2": "Smelts ores that you mine!",
+	"item.twilight.ignis_pickaxe.lore1": "Infused with the power of fire!",
+	"item.twilight.ignis_pickaxe.lore2": "§o§cSmelts§r ores that you mine!",
+
 	"advancements.twilight.root.title": "The Twilight",
 	"advancements.twilight.root.description": "An ever-shifting realm of chaos and disorder",
 	"biome.twilight.dead_forest": "Dead Forest",

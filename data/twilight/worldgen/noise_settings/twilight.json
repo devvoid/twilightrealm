@@ -27,7 +27,7 @@
 		"structures": {
 			"minecraft:village": {
 				"spacing": 32,
-				"separation": 8,
+				"separation": 4,
 				"salt": 10387312
 			},
 
