@@ -16,8 +16,14 @@
 	"item.twilight.ignis_pickaxe.lore1": "Infused with the power of fire!",
 	"item.twilight.ignis_pickaxe.lore2": "§o§cSmelts§r ores that you mine!",
 
+	"spell.twilight.conjure_wolf": "Conjure Wolves",
+	"spell.twilight.conjure_wolf.spellbook": "Spellbook: Conjure Wolves",
+
+	"message.twilight.insufficient_levels": "You do not have enough levels to cast this spell; you require at least %s",
+
 	"advancements.twilight.root.title": "The Twilight",
 	"advancements.twilight.root.description": "An ever-shifting realm of chaos and disorder",
+
 	"biome.twilight.dead_forest": "Dead Forest",
 	"biome.twilight.ender_mountains": "Ender Mountains",
 	"biome.twilight.hellfire_meadow": "Hellfire Meadow",
