@@ -1,0 +1,3 @@
+# Builds (Is it even right to call them "builds"? It's just a zip file lol)
+build/
+*.zip
