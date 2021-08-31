@@ -4,7 +4,6 @@
 summon wolf ~ ~1 ~ {HandItems:[{id:"minecraft:stick",Count:1b},{}]}
 summon wolf ~ ~1 ~ {HandItems:[{id:"minecraft:stick",Count:1b},{}]}
 summon wolf ~ ~1 ~ {HandItems:[{id:"minecraft:stick",Count:1b},{}]}
-summon wolf ~ ~1 ~ {HandItems:[{id:"minecraft:stick",Count:1b},{}]}
 
 execute as @e[type=wolf,nbt={HandItems:[{id:"minecraft:stick",Count:1b}]}] at @s run data modify entity @s Owner set from entity @p UUID
 
@@ -12,7 +11,10 @@ execute as @e[type=wolf,nbt={HandItems:[{id:"minecraft:stick",Count:1b}]}] at @s
 execute as @e[type=wolf,nbt={HandItems:[{id:"minecraft:stick",Count:1b}]}] run data modify entity @s HandItems set value []
 
 # Remove the spell cost
-experience add @s -5 levels
+experience add @s -10 levels
 
 # Remove the pending tag from the player
 scoreboard players reset @s pS_conjure_wolf
+
+# Signal that it worked
+tellraw @s {"translate": "spells.twilight.conjure_wolf.success"}

@@ -1,4 +1,6 @@
 {
+	"commands.trigger.simple.success": "",
+
 	"item.twilight.research_notes.name": "Twilight Research Notes",
 	"item.twilight.research_notes.lore": "Contains important information on the Twilight Realm",
 	"item.twilight.research_notes.page_1": "This book will expand over time as more information about the Twilight is learned.",
@@ -18,6 +20,11 @@
 
 	"spell.twilight.conjure_wolf": "Conjure Wolves",
 	"spell.twilight.conjure_wolf.spellbook": "Spellbook: Conjure Wolves",
+	"spell.twilight.conjure_wolf.success": "Friendly wolves have been summoned!",
+
+	"spell.twilight.construct_house": "Construct Emergency House",
+	"spell.twilight.construct_house.spellbook": "Spellbook: Construct Emergency House",
+	"spell.twilight.construct_house.success": "The earth rumbles and an emergency house forms around you!",
 
 	"message.twilight.insufficient_levels": "You do not have enough levels to cast this spell; you require at least %s",
 
