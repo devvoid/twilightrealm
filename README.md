@@ -14,7 +14,7 @@
 ## Uniques
 - [ ] Ignis Pickaxe: Make logs/stripped logs/wood/stripped wood turn into charcoal. Don't have the energy for it right now.
 - [X] Twilight Research Notes: A guidebook to explain how the Twilight operates, written from the perspective of a researcher.
-- [ ] Emergency House: Loot table needs adjustment; remove low level items, add more cooked food and higher-level gear.
+- [ ] Emergency House: Loot table needs adjustment; add armor table (leather with chance of chain) and more food items
 
 ## Structures
 - [X] Winding roads: Long branching roads that lead to nowhere. Occasionally bordered by small ruins that suggest there used to be some kind of settlement there, long ago. Found in all biomes (regional variants maybe?)
