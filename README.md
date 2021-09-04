@@ -33,4 +33,4 @@ It is heavily recommended that you put yourself in Spectator or Creative Mode wh
 # Things we want to do but can't yet
 - In dimension\_type, "natural" is set to "true" because of a glitch that causes a fatal error to console/no sleep to happen when trying to sleep in an unnatural biome. Bug tracker report: [here](https://bugs.mojang.com/browse/MC-235035)
 - Spellbooks that can't be cheated: Unfortunately, we have to use a complicated workaround with the scoreboard and /trigger because JSON text components on books are limited to just commands the player can run.
-- Giant mega-dungeon structure: Not possible because of the limitations with jigsaw blocks. You can only go 7 recursions deep (and putting a structure underground means wasting one of them, leaving you with only 6) so doing something as large as, say, a Stronghold just cannot be done yet.
+- Giant mega-dungeon structure: Not possible because of the limitations with jigsaw blocks. You can only go 7 recursions deep (and putting a structure underground  or in the sky means wasting one of them, leaving you with only 6) so doing something as large as, say, a Stronghold just cannot be done yet.

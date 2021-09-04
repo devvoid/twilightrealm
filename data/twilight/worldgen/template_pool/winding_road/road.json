@@ -45,6 +45,15 @@
 				"processors": "minecraft:empty"
 			},
 			"weight": 10
+		},
+		{
+			"element": {
+				"location": "twilight:winding_road/road/end_02",
+				"element_type": "minecraft:single_pool_element",
+				"projection": "terrain_matching",
+				"processors": "minecraft:empty"
+			},
+			"weight": 10
 		}
 	],
 	"fallback": "minecraft:empty"

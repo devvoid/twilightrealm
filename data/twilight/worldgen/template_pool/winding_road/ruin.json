@@ -3,28 +3,18 @@
 	"elements": [
 		{
 			"element": {
-				"location": "twilight:winding_road/ruins/storehouse_01",
+				"location": "twilight:winding_road/ruins/storehouse",
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"processors": "twilight:decay_bricks"
 			},
-			"weight": 100
+			"weight": 5
 		},
 		{
 			"element": {
-				"location": "twilight:winding_road/ruins/storehouse_02",
-				"element_type": "minecraft:single_pool_element",
+				"element_type": "minecraft:empty_pool_element",
 				"projection": "rigid",
-				"processors": "twilight:decay_bricks"
-			},
-			"weight": 100
-		},
-		{
-			"element": {
-				"location": "twilight:winding_road/ruins/storehouse_03",
-				"element_type": "minecraft:single_pool_element",
-				"projection": "rigid",
-				"processors": "twilight:decay_bricks"
+				"processors": "minecraft:none"
 			},
 			"weight": 100
 		}
