@@ -1,0 +1,12 @@
+{
+	"type": "twilight:twilight",
+	"generator": {
+		"type": "minecraft:noise",
+		"settings": "twilight:twilight",
+		"seed": 0,
+		"biome_source": {
+			"type": "minecraft:fixed",
+			"biome": "twilight:debug"
+		}
+	}
+}

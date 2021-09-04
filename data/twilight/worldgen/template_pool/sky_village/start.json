@@ -1,0 +1,15 @@
+{
+	"name": "sky_village/start",
+	"elements": [
+		{
+			"element": {
+				"location": "minecraft:village/plains/town_centers/plains_fountain_01",
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "twilight:sky"
+			},
+			"weight": 100
+		}
+	],
+	"fallback": "minecraft:empty"
+}
